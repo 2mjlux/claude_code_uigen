@@ -61,7 +61,7 @@ JWT-based auth stored in an httpOnly cookie (`session`). Server actions in `src/
 
 ### Database (`prisma/schema.prisma`)
 
-SQLite via Prisma. Two models: `User` and `Project`. `Project.messages` and `Project.data` are JSON-serialized strings holding the full chat history and VFS state respectively.
+SQLite via Prisma. Refer to `prisma/schema.prisma` for the authoritative data model. Two models: `User` and `Project`. `Project.messages` and `Project.data` are JSON-serialized strings holding the full chat history and VFS state respectively.
 
 ## Comments
 
